@@ -1,0 +1,26 @@
+# Gæt et nummer
+import random
+
+antal_gaet = 0
+
+nummeret = random.randint(1,20)
+
+for gaet in range(10):
+    print("Gæt et tal: ")
+    mit_gaet = input()
+    mit_gaet = int(gaet) # konverterer string til int.
+    
+    if mit_gaet != nummeret:
+        print("Forkert")
+        
+        
+    if mit_gaet == nummeret:
+        break
+    
+if mit_gaet == nummeret:
+    gaet = str(gaet + 1)
+    print("Godt klaeret! " + "Du gættede nummeret på " + gaet + " forsøg!")
+    
+if mit_gaet != nummeret:
+    nummeret = str(nummeret)
+    print("Det rigtige nummer var " + nummeret)
