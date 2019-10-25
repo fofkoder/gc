@@ -1,0 +1,10 @@
+by_var = "Hvilken by har du besøgt?"
+by_var += "Tryk Q for at afslutte programmet. "
+
+while True:
+    by = input(prompt)
+
+    if by == "q":
+        break
+    else:
+        print("Jeg har været i " + by + ".")
