@@ -1,0 +1,7 @@
+# Dette program siger hej + dit navn og alder
+print("Hej ukendte!")
+navn = input("Hvad hedder du?")
+print("Tak " + navn)
+print("Hvor gammel er du? " + navn)
+alder = input()
+print("Du er " + alder + " " + "år," + navn)
