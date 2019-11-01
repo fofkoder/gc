@@ -1,0 +1,12 @@
+# Lister
+# - En liste indeholder data
+# - starter fra 0
+# Indtast: 
+
+min_liste = [1, 4, 6, 8, 10, 20]
+print(min_liste)
+print(min_liste[0])
+print(min_liste[1])
+print(min_liste[2])
+print(min_liste[-1])
+print(min_liste[20])
