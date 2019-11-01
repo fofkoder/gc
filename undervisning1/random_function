@@ -1,0 +1,8 @@
+#Random
+#Random kan fx danne vilkårlige tal
+
+#Indtast:
+import random
+random.randint(1, 200)
+random.randint(1, 200)
+random.randint(1, 200)
