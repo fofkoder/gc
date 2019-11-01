@@ -1,4 +1,4 @@
-# gc
+# Gifted Children
 Workshop
 
 Python: https://python.org
