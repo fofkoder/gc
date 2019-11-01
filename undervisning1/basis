@@ -1,0 +1,46 @@
+# Kommentarer
+# Dette er en kommentar
+# Vores program læser ikke kommentarer
+
+# BASIS
+# Tal - Python som regnemaskine
+# Åben din interaktive Python editor(enten IDLE eller Spyder console).
+# +, -, /, *, %, **
+# Indtast: 
+6 + 8
+6 * 3
+4 / 3
+8 % 6
+5 ** 3
+
+# Strings 
+# Indhold af tegn.
+# Inddeles med et quatation mark: “ eller ‘
+# Indtast: 
+“Dette er en string”
+“6 + 8”
+“7 æbler, 5 appelsiner og 3 poser slik”
+“%&&# gkjgrYK !356#%/()?”
+“Hej” + “Python”
+“Hej” + “ “ + “Python”
+“Hej” * 5
+print(“Hej Python”)
+
+# Variabler
+x = “Dette er en string”
+print(x)
+y = “Hej ”+ “Python”
+print(y)
+print(y + “. ” + x)
+z = 5
+z + 10
+a = z + 10
+print(a)
+print(a + z)
+print(a + a)
+
+# Input
+input(“Hvad er dit navn?”)
+navn = input(“Hvad er dit navn?”)
+print(navn)
+print(“Hej “ + navn)
