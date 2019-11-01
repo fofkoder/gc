@@ -1,0 +1,21 @@
+# while loop
+# Stopper ved instruktion
+
+tal = 1        
+while tal <= 20:
+    print(tal)
+    tal +=1 # tallet adderes med 1 for hvert nyt loop
+print(tal)
+
+
+
+by_var = "Hvilken by har du besøgt?"
+by_var += "\nTryk Q for at afslutte programmet. "
+
+while True:
+    by = input(by_var)
+
+    if by == "q":
+        break
+    else:
+        print("Jeg har været i " + by + ".")
