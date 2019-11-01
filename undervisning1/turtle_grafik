@@ -1,0 +1,37 @@
+# Turtle grafik
+from turtle import *
+
+for i in range(500): #For loop loops i from 500 times, counting from 0 - 499
+	forward(i) 
+	left(90) 
+	hideturtle() 
+    speed(0)
+    
+for i in range(50, 400):
+    forward(i)
+    left(90)
+    hideturtle()
+    speed(0)
+    
+for i in range(70, 500, 10):
+    forward(i)
+    left(90)
+    hideturtle()
+    speed(0)
+    
+
+
+
+# Ændring af vinkel
+    
+for i in range(500):
+	forward(i) 
+	left(91) 
+	hideturtle() 
+    	speed(0)   
+
+for i in range(200):
+	circle(200)
+	left(53)
+	hideturtle()
+    	speed(0)
