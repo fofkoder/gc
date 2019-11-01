@@ -1,0 +1,14 @@
+# for loops
+# Looper 10 gange
+for i in range(10):
+    print(i)
+
+# Starter fra 1 og slutter inden 11    
+for i in range(1, 11):
+    print(i)
+
+
+# Starter fra 0, slutter inden 101 og springer 5 tal over    
+for i in range(0, 101, 5):
+    print(i)
+    
