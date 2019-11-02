@@ -1,0 +1,12 @@
+import turtle
+t = turtle.Pen()
+t.hideturtle()
+for i in range(360):
+  t.forward(i)
+  t.left(90)
+  
+t = turtle.Pen()
+t.hideturtle()
+for i in range(360):
+  t.forward(i)
+  t.left(91)
