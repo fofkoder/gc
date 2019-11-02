@@ -1,0 +1,51 @@
+import turtle
+t = turtle.Pen()
+
+# rotation i 90 grader
+t.left(90)
+
+# rotation 180 grader
+t.right(180)
+
+# rotation 90 grader mod højre
+t.right(90)
+
+# RESET
+t.reset()
+
+# Find hjælp
+help(t)
+
+# Forward
+t.forward(100) #<- 100 = pixels
+
+# Floating
+t.forward(50.78)
+
+# Eksempel på home
+t.reset()
+t.forward(200) #<- Gå først 200 pixels frem
+t.home() #<- Tilbage til 0,0 punktet
+
+# Eksempel på negativt fortegn
+t.reset()
+t.forward(200)
+t.forward(-400)
+
+# NAVIGERING I CANVAS
+t.reset()
+t.goto(0, 0) #<- Starter ved skæringspunkternet
+t.goto(-325, 165)
+t.goto(200, -200)
+
+# penup
+help(t.penup)
+t.penup()
+t.goto(30, -200)
+
+# pendown
+t.pendown()
+
+# backward
+t.backward(400)
+
