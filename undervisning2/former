@@ -1,0 +1,80 @@
+# FORMER OG FARVER
+
+t.penup()
+t.goto(-420, 300)
+t.pendown()
+t.pencolor("green")
+t.pensize(4)
+t.forward(840)
+t.penup()
+t.goto(0, -300)
+t.pendown()
+t.pensize(1)
+t.color("black", "brown")
+t.begin_fill()
+
+# Loops
+for lines in range(3):
+  t.left(90)
+  t.forward(80)
+  
+t.end_fiill()
+
+# Rotation af pilen
+t.left(180)
+t.forward(80)
+f.torward(120)
+t.right(90)
+t.forward(280)
+t.right(90)
+t.forward(200)
+
+# Nyt loop
+t.color("black", "blue")
+t.begin_fill()
+for lines in range(4):
+  right(90)
+  forward(350)
+t.end_fill()
+ 
+# HVAD nu???
+ 
+# navigation af setup af pen
+t.reset()
+t.goto(-420, 300)
+t.pendown()
+t.pencolor("green")
+t.pensize(4)
+
+# Streger uden fyld
+t.forward(840)
+t.penup()
+t.goto(0, -300)
+t.pendown()
+t.pensize(1)
+
+#Blå boks
+t.color("black", "blue")
+t.begin_fill()
+for lines in range(4):
+  t.left(90)
+  t.forward(350)
+t.end_fill()
+
+#Lille brun boks
+t.color("black", "blue")
+t.begin_fill()
+for lines in range(3):
+  t.left(90)
+  t.forward(80)
+t.end_fill()
+
+t.left(180)
+t.forward(80)
+t.forward(120)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(280)
+t.right(90)
+t.forward(200)
