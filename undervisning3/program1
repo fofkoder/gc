@@ -1,0 +1,7 @@
+# Se forklaringer i hæftet om GUI
+
+import tikinter
+window = tkinter.Tk()
+window.title(“Min titel”)
+label = tkinter.Label(Window, text = “Hej Haj!”).pack()
+window.mainloop()
