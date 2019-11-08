@@ -1,0 +1,21 @@
+import tkinter
+
+class MinKlasse:
+
+    def __init__(self, window):
+
+        self.text_btn = tkinter.Button(window, text = "Klik her", command = self.hejsa) # kalder funktionen "hejsa"
+        self.text_btn.pack()
+
+        self.close_btn = tkinter.Button(window, text = "Afslut", command = window.quit) # lukker vinduet når du klikker
+        self.close_btn.pack()
+
+    def hejsa(self):
+        tkinter.Label(window, text = "Hejsa").pack()
+
+window = tkinter.Tk()
+window.title("")
+
+klasse_objekt = MinKlasse(window)
+
+window.mainloop()
