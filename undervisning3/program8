@@ -1,0 +1,21 @@
+import tkinter
+
+window = tkinter.Tk()
+window.title("Program 8")
+
+# Laver et canvas på 500 * 500 pixels
+canvas = tkinter.Canvas(window, width = 500, height = 500)
+canvas.pack()
+
+# Tegner en linje (starter med x og y-point, ender med x og y)
+linje1 = canvas.create_line(25, 25, 250, 150)
+
+linje2 = canvas.create_line(25, 250, 250, 150, fill = "red")
+
+# Laver firkant
+# starter fra øverste venstre
+rect = canvas.create_rectangle(500, 25, 175, 75, fill = "green")
+
+oval = canvas.create_oval(373, 200, 49, 11, fill = "red")
+
+window.mainloop()
