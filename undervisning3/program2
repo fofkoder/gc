@@ -1,0 +1,17 @@
+import tkinter
+
+window = tkinter.Tk()
+window.title("Program 2")
+
+# Laver 2 frames: TOP og BOTTOM
+top_frame = tkinter.Frame(window).pack()
+bottom_frame = tkinter.Frame(window).pack(side = "bottom")
+
+# laver en widget som går top, bottom og I pack() left og right
+btn1 = tkinter.Button(top_frame, text = "Knap1", fg = "red").pack()
+btn2 = tkinter.Button(top_frame, text = "Knap2", fg = "green").pack()
+btn3 = tkinter.Button(bottom_frame, text = "Knap3", fg = "purple").pack(side = "left")# 'side' is used to align the widgets
+btn4 = tkinter.Button(bottom_frame, text = "Knap4", fg = "orange").pack(side = "left")
+btn5 = tkinter.Button(bottom_frame, text = “Knap5”, fg = “blue”.pack(side = “right”)
+
+window.mainloop()
