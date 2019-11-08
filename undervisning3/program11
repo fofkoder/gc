@@ -1,0 +1,7 @@
+from tkinter import *
+from tkinter.colorchooser import *
+def getcolor():
+	color = askcolor()
+	print(color)
+Button(text=”Vælg farve”, command=getColor).pack()
+mainloop()
