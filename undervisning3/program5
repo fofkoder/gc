@@ -1,0 +1,6 @@
+import tkinter
+window = tkinter.Tk()
+window.title(“Program 5”)
+def hejsa(): # eksekveres I command
+	tkinter.Label(window, text = “Klik her”, command = hejsa).pack() # her eksekveres vores funktion, hejsa.
+window.mainloop()
