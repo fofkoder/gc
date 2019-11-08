@@ -1,0 +1,11 @@
+from tkinter import *
+from random import randint
+def kast():
+	text.delete(0.0, END)
+	text.insert(END, str(randint(1, 6)))
+
+window = Tk()
+text = Text(window, width=5, height=5)
+knapA = Button(window, text=”Klik for at kaste”, command=kast)
+text.pack()
+knapA.pack()
