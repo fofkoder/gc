@@ -1,0 +1,12 @@
+from tkinter import *
+
+def tryk_a(): # Beskeden vises når der trykkes a
+	print(“Mange tak!”)
+def tryk_b(): Beskeden vises når der trykkes b
+	print(“Av av av da, det gjorde ondt!!!”)
+
+window = Tk()
+knapA = Button(window, text=”Tryk her”, command = tryk_a)
+knapB = Button(window, text=”Tryk IKKE her!”, command = tryk_b)
+knapA.pack()
+knapB.pack()
