@@ -1,0 +1,18 @@
+import tkinter
+
+window = tkinter.Tk()
+window.title("Program 4")
+
+# Laver 2 labels med tekst og input labels
+
+tkinter.Label(window, text = "B").grid(row = 0) # Placeres I feltet 0 0
+# 'Entry' er en klasse fra tkinter som lader os skrive input
+tkinter.Entry(window).grid(row = 0, column = 1) # placeres i 0 1
+
+tkinter.Label(window, text = "Password").grid(row = 1) # placeres i 1 0
+tkinter.Entry(window).grid(row = 1, column = 1) # placeres i 1 1
+
+# 'Checkbutton' bruges til tjeck af login
+tkinter.Checkbutton(window, text = "Husk koden").grid(columnspan = 2) # 'columnspan' optagertager bredden af to kolloner.
+                                                                            
+window.mainloop()
