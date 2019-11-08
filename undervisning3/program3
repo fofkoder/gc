@@ -1,0 +1,21 @@
+import tkinter
+
+window = tkinter.Tk()
+window.title("Program 3")
+
+# Laver 3 labels og udfylder dem med violet, green og sort. 
+# bg = baggrundsfarven
+# fg = forgrunden som i dette tilfælde er vores tekst
+
+# sufficient width
+tkinter.Label(window, text = "Violet fyld og hvid tekst ;)", fg = "white", bg = "purple").pack()
+
+# bredden X
+tkinter.Label(window, text = "hvidt fyld og sort tekst ;)", fg = "black", bg = "white").pack(fill = "x") # udfylder hele vores x-akse
+
+# højden Y på venstre side
+tkinter.Label(window, text = "orange fyld og sort tekst ;)", fg = "black", bg = "orange").pack(side = "left", fill = "y")
+
+tkinter.Label(window, text ="hvis tekst og blå baggrund ;)", fg = "white", bg = "blue").pack(side = "right", fill = "y")
+
+window.mainloop()
