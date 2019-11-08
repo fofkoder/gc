@@ -1,0 +1,12 @@
+from random import *
+from tkinter import *
+window = Tk()
+mit_canvas = Canvas, width=size, height=size)
+mit_canvas.pack()
+while True:
+	farve = choice([“pink”, “orange”, “purple”, “yellow”])
+	x0 = randint(0, size)
+	y0 = randint(0, size)
+	d = randin(0, size/5)
+	mit_canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=farve=
+	window.update()
