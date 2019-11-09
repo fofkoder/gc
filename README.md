@@ -10,6 +10,10 @@ Anaconda: https://www.anaconda.com/distribution/
 
 2. undervisning: https://bit.ly/322tpO4
 
+2. undervisning: https://bit.ly/32vXwhh
+
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
 
 Playliste over Turtle Grafik på YouTube: https://bit.ly/2JFT60H 
+
+Discord: https://discordapp.com/channels/640329430375464960/642632053401321510
