@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Nov 15 22:32:59 2019
+
+@author: atle
+"""
+
+a = 0
+b = 1
+for i in range(0, 10):
+    print(a)
+    a, b = b, a + b
+print()
+
+a = 0
+b = 1
+while b < 12:
+    print(a)
+    a, b = b, a+b
+
+print()
+
+a = 0
+b = 1
+for i in range(0, 100):
+    print("{}: {}".format(i+1, a))
+    a, b = b, a + b
