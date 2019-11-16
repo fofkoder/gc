@@ -12,7 +12,7 @@ Anaconda: https://www.anaconda.com/distribution/
 
 3. undervisning: https://bit.ly/32vXwhh
 
-4. undervisning: https://bit.ly/2qm2cZM
+4. undervisning: https://bit.ly/2XihcEc
 
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
 
