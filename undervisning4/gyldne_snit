@@ -1,0 +1,27 @@
+# ZeroDivisionError
+
+a = 0
+b = 1
+for i in range(0, 100):
+    print(b/a)
+    a, b = b, a + b
+    
+# Hvis man dividerer med 0 kan man bruge try og except    
+    
+a = 0
+b = 1
+for i in range(0, 100):
+    try:
+        print(b/a)
+        a, b = b, a + b 
+        
+    except ZeroDivisionError: # får man værdien 0, kører programmet stadig videre og stopper ikke
+        pass
+
+
+    
+a = 1
+b = 2
+for i in range(0, 100):
+    print("{}: {} {}".format(i+1, a, b/a))
+    a, b = b, a + b
