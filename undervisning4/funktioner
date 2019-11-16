@@ -1,0 +1,17 @@
+# Antal af sekvenser
+
+def fib(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print(a)
+        a, b = b, a + b
+        
+# Antal af sekvenser
+
+def fibv2(a, b, n):
+    a = a
+    b = b
+    for i in range(n):
+        print(a)
+        a, b = b, a + b
