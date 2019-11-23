@@ -1,0 +1,6 @@
+import base64 # import af modul
+
+encoded = base64.b64encode(b'dette er min hemmelige besked') # koder ASCII-tegn til binærer
+print(encoded) # printer de binærer tegn
+data = base64.b64decode(encoded) # behandler vores data og tager dem tilbage til ASCII
+print(data) # printer dem ud
