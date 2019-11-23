@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+password = "11235821"
+
+print("Hvad er passwordet?(Q) for afslut")
+while True:
+    guess = input(">>> ")
+    if guess == password:
+        print("VELKOMMEN")
+        break
+    elif guess != password:
+        print("Prøv igen")
+    if guess == "q":
+        print("Du har afluttet!")
+        break
