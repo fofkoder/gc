@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+
+guess = 0 # antal gæt fra start
+
+password = "gckbhwk5pyt05" # korrekt password
+
+hint = "Hvad hed din første fugl?" # hint
+
+
+# while loop med under 3 gæt
+while guess < 3:
+    guess += 1 #<- Gæt adderes med 1 for hvert loop
+    # menu
+    print("Skriv password")
+    print("(glemt) password?")
+    indtast = input(">>> ")
+    # conditional statements
+    if indtast == "glemt": #<- hvis man indtaster glemt
+        print(hint + "\n") # henter variablen hint
+        guessing_hint = input(">>> ") # vi kan nu gætte og få vores password
+        if guessing_hint == "piphans": # hvis du skriver dit hint korrekt
+            print("\nSkriv et nyt password: ") # skriv nyt password 
+            password = input(">>> ") # det nye password overskriver det gamle
+        else: # hvis du gætter forkert
+            print("Forkert")
+    if indtast == password: # <- hvis password er korrekt
+        break
+    elif indtast != password: #<- hvis password er forkert
+        continue # continue fortsætter til næste loop
+# ude af loopet
+
+# når vi gætter korrekt
+if indtast == password:
+    print("*"*20) #20 stjerner
+    print("V.E.L.K.O.M.M.E.N")
+    print("*"*20)
+
+# hvis vi gætter forkert    
+if indtast != password:
+    print("Du har brugt " + str(guess) + " " + "forsøg.")
+    print("Kontakt kundeservice!")
