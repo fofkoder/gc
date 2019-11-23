@@ -1,0 +1,5 @@
+import base64 # import af modul
+encoded = base64.b64encode(b'dette er min hemmelige besked') # vi krypterer vores besked
+print(encoded) # printer nøglen, som ingen kan forstaa
+data = base64.b64decode(encoded) # behandler vores nøgle og oversætter den til forståelige ord og sætninger.
+print(data) # printer dem ud
