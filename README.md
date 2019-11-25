@@ -14,7 +14,7 @@ Anaconda: https://www.anaconda.com/distribution/
 
 4. undervisning: https://bit.ly/2XihcEc
 
-5. undervisning: https://bit.ly/2XERwBO
+5. undervisning: https://bit.ly/34mAJWM
 
 Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
 
