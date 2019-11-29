@@ -16,6 +16,8 @@ Anaconda: https://www.anaconda.com/distribution/
 
 5. undervisning: https://bit.ly/34qrrcc
 
+6. undervisning: opsamling.
+
 Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
 
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
