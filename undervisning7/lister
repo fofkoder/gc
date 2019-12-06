@@ -1,0 +1,42 @@
+# HUSK AT LISTER STARTER FRA 0
+
+# Liste med strenge
+min_liste = ["hej", "med", "dig"]
+print(min_liste)
+
+# Liste med strenge, tal og booleans
+min_liste2 = ["hej", 34, True, "øæp38ug"]
+print(min_liste2)
+#Printer den første værdi i listen
+print(min_liste[0])
+# Printer værdierne indtil de når den 2. værdi i listen
+print(min_liste[:1])
+
+# Boolean tester om listens 2. værdi(34) er den samme som den 3. værdi(True)
+boolean = min_liste[1] == min_liste[2]
+print(boolean)
+
+# Boolean tester om listens 2. værdi(True) er den samme som listen 2. værdi(True)
+boolean2 = min_liste[2] == min_liste[2]
+print(boolean2)
+
+# min_liste3
+min_liste3 = ["hej", "du", "skriver", "en", "liste"]
+print(min_liste3)
+
+# append giver en værdi til sidst i listen
+min_liste3.append("navn")
+print(min_liste3)
+
+# sort, sorttere listen i alfabetisk raekkefølge
+min_liste3.sort()
+print(min_liste3)
+
+# Loop af listen
+for i in min_liste3:
+    print(i)
+ 
+# join-funktionen sammen sætter listen uden kommaer 
+print("".join(min_liste3))
+
+
