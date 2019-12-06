@@ -1,0 +1,11 @@
+i = 2
+print("De første primtal under 100".upper())
+while(i < 100): #<- Så længe i er under 100 kører loopet
+   j = 2 # nested loop hedder j og tildeles 2
+   while(j <= (i/j)): # hvis j er mindre eller lig i/j
+      if not(i%j): # Hvis ikke i kan deles med j
+          break # afslut loopet
+      j = j + 1 # j's værdi tildeles j's værdi + 1
+   if (j > i/j): 
+       print( str(i) + " er et primtal") # hvis j er større end i divideret med j
+   i = i + 1 # i tildeles i's værdi + 1 og vi fortsætter loopet indtil vi når et nyt primtal
