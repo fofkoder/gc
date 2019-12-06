@@ -7,7 +7,7 @@ bgcolor("navy")
 
 for i in range(0, 820):
     for j in range(6):
-        circle(i + j  * 1.323)
+        #circle(i + j  * 1.323)
         fd(i + j  * 1.323)
         pencolor(random.choice(color))
         hideturtle()
