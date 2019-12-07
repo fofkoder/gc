@@ -1,0 +1,13 @@
+from tkinter import *
+
+window = Tk()
+window.resizable(False, False)
+
+canvas = Canvas(window, width=300, height = 300)
+canvas.pack()
+
+canvas.create_text(150, 150, text="Dette er en super sej tekst")
+
+#random_rects(230)
+
+window.mainloop()
