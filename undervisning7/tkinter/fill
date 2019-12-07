@@ -1,0 +1,21 @@
+from tkinter import *
+
+# Tk()
+window = Tk()
+
+
+
+btn1 = Button(None, text="klik her!", fg="Blue")
+btn1.pack()
+
+btn2 = Button(None, text="Heeeellllooooo!", fg="Red")
+btn2.pack(fill=X)
+
+btn3 = Button(None, text="Heeeellllooooo!", fg="Purple")
+btn3.pack(side = RIGHT, fill = Y)
+
+btn4 = Button(None, text="Heeeellllooooo!", fg="yellow")
+btn4.pack()
+
+# Mainloop af vindue
+window.mainloop()
