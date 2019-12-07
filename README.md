@@ -18,6 +18,9 @@ Anaconda: https://www.anaconda.com/distribution/
 
 6. undervisning: opsamling.
 
+7. undervisning: https://bit.ly/2s3bBWV
+
+
 # Ekstra
 
 Rigspolitiets julekalender: https://politi.dk/rigspolitiet/nyhedsliste/rigspolitiet-klar-med-ny-hackerjulekalender/2019/11/15
