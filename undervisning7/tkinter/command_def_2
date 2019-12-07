@@ -1,0 +1,14 @@
+from tkinter import *
+
+window = Tk()
+
+def print_navn(event):
+    print("Hey Atle")
+
+btn1 = Button(window, text = "Klik her")
+btn1.bind("<Button-1>", print_navn)
+btn1.pack()
+
+
+
+window.mainloop()
