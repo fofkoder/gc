@@ -1,0 +1,34 @@
+from tkinter import *
+
+window = Tk()
+
+def left_click(event):
+    print("Left")
+    
+def right_click(event):
+    print("Right")
+    
+def scroll(event):
+    print("Scroll")
+    
+def left_key(event):
+    print("Left key pressen")
+    
+def right_key(event):
+    print("Right key pressen")
+
+window.geometry("500x500")
+
+window.bind("<Button-1>", left_click)
+
+window.bind("<Button-2>", scroll)
+
+window.bind("<Button-3>", right_click)
+
+window.bind("<Left>", left_key)
+
+window.bind("<Right>", right_key)
+
+
+
+window.mainloop()
