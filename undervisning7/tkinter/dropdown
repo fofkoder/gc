@@ -1,0 +1,25 @@
+from tkinter import *
+
+window = Tk()
+
+def random():
+    print("This is a statement")
+
+main_menu = Menu(window)
+
+window.configure(menu = main_menu)
+
+sub_menu = Menu(main_menu)
+
+main_menu.add_cascade(label = "File", menu=sub_menu)
+
+sub_menu.add_command(label ="Random Func", command=random)
+
+sub_menu.add_command(label = "New File", command=random)
+
+sub_menu.add_separator()
+
+sub_menu.add_command(label = "Super duper", command=random)
+
+
+window.mainloop()
