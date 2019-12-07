@@ -1,0 +1,12 @@
+from tkinter import *
+
+# Tk()
+window = Tk()
+
+btn = Button(None, text="klik her!", fg="Blue")
+btn.pack()
+btn = Button(None, text="Heeeellllooooo!", fg="Red")
+btn.pack()
+
+# Mainloop af vindue
+window.mainloop()
