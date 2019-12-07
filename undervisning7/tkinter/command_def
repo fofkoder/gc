@@ -1,0 +1,11 @@
+from tkinter import *
+
+window = Tk()
+
+def print_navn():
+    print("Hey Atle")
+
+btn1 = Button(window, text = "Klik her", command = print_navn)
+
+btn1.pack()
+window.mainloop()
