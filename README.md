@@ -18,6 +18,17 @@ Anaconda: https://www.anaconda.com/distribution/
 
 6. undervisning: opsamling.
 
+# Ekstra
+
+Rigspolitiets julekalender: https://politi.dk/rigspolitiet/nyhedsliste/rigspolitiet-klar-med-ny-hackerjulekalender/2019/11/15
+
+Husk at du skal installere Tor-browseren for at spille julekalenderen: https://www.torproject.org/
+
+Du finder Rigspolitiets link til julekalenderen her(husk, at du skal være på en Tor-browser): https://twitter.com/rigspoliti_nc3
+
+- Holdet vi bruger derinde hedder teamgc. 
+
+
 Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
 
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
