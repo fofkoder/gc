@@ -1,0 +1,17 @@
+from tkinter import *
+import tkinter.messagebox
+
+window = Tk()
+
+tkinter.messagebox.showinfo("Window Title", "Vidste du at du lige har skrevet dette program?")
+
+answer = tkinter.messagebox.askquestion("Question 1", "Har du copy-pasted?")
+
+if answer == "no":
+    tkinter.messagebox.showinfo("Tillykke", "Godt man!!")
+
+elif answer == "yes":
+    tkinter.messagebox.showinfo("Øv bøv", "Aej, det var ikke så godt.")
+
+
+window.mainloop()
