@@ -1,0 +1,13 @@
+from tkinter import *
+
+# Tk()
+window = Tk()
+
+# Labels
+label = Label(window, text="Hello, world!")
+label.pack()
+label = Label(window, text="Hello, world 2!")
+label.pack()
+
+# Mainloop af vindue
+window.mainloop()
