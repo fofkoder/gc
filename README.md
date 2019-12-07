@@ -29,6 +29,10 @@ Du finder Rigspolitiets link til julekalenderen her(husk, at du skal være på e
 - Holdet vi bruger derinde hedder teamgc. 
 
 
+Twilio Quest: https://www.twilio.com/quest/learn/python
+
+
+
 Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
 
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
