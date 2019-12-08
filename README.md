@@ -32,14 +32,16 @@ Du finder Rigspolitiets link til julekalenderen her(husk, at du skal være på e
 - Holdet vi bruger derinde hedder teamgc. 
 
 
-Twilio Quest: https://www.twilio.com/quest/learn/python
-
-
-
-Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
-
 Turtle Grafik på Github: https://github.com/atlemgw/turtlegraphics
 
 Playliste over Turtle Grafik på YouTube: https://bit.ly/2JFT60H 
 
 Discord: https://discordapp.com/channels/640329430375464960/642632053401321510
+
+
+
+Twilio Quest: https://www.twilio.com/quest/learn/python
+
+Powder Game: https://dan-ball.jp/en/javagame/dust/
+
+Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
