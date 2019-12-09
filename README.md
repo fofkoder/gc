@@ -45,3 +45,5 @@ Twilio Quest: https://www.twilio.com/quest/learn/python
 Powder Game: https://dan-ball.jp/en/javagame/dust/
 
 Coockie Clicker: https://orteil.dashnet.org/cookieclicker/
+
+Machine Learnings for Kids: https://machinelearningforkids.co.uk/
