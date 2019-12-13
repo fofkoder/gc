@@ -20,6 +20,11 @@ Anaconda: https://www.anaconda.com/distribution/
 
 7. undervisning: https://bit.ly/2s3bBWV
 
+8. undervisning: Juleafslutning, hvor vi samler op på de projekter vi er i gang med. Der bliver også plads til at se på et ping-pong spil.
+
+
+# Noter
+Der er kommet en ny udgave af Spyder, som hedder Spyder 4.0. Den skal I ikke installere, da den er fuld af fejl.
 
 # Ekstra
 
