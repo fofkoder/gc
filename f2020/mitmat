@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar  3 11:10:04 2020
+
+@author: atle
+"""
+
+# Mit matematik
+
+# Modul med matematik-formler
+
+# Potensregning
+def f(a, b):
+    """
+
+    Parametrer
+    ----------
+    a : Float
+        Angiv tallet a som du vil have opløftet med tallet b
+    b : Float
+        Angiv tallet b, som skal opløfte tallet a
+
+    Funktionen
+    ----------
+    def f(a, b):
+        return a ** b
+    
+    Eksempel
+    ----------
+    f(a, b)
+    
+    f(3, 2)
+
+    """
+    # Returnerer a opløftet med b
+    return a ** b
+
+# Areal af retvinklet trekant
+# ½ * højde * grundlinje
+def g(h, g):
+    """
+    
+
+    Parametrer
+    ----------
+    h : float
+        Højden. Angiv højden på den retvinklede trekant
+    g : float
+        Grundlinjen. Angiv grundlinjen på den retvinklede trekant.
+    
+    Funktionen
+    ----------    
+    def g(200.56, 70):
+        0.5 * h * g
+
+    Eksempel
+    -------
+    g(h, g)
+    
+    g(8, 5.55)
+
+    """
+    return 0.5 * h * g
+
+# Areal af cirkcel
+def h(radius):
+    """
+    
+
+    Parameter
+    ----------
+    radius : Float
+        Angiv cirklens radius
+
+
+    Funktionen
+    -------
+    def h(radius):
+        pi = 3.14159
+        areal = pi * radius ** 2
+    
+    Eksempel
+    ----------
+    h(radius)
+    
+    h(5)
+
+    """
+    pi = 3.14159
+    areal = pi * radius ** 2
+    return areal
