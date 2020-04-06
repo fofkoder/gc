@@ -1,0 +1,109 @@
+# -*- coding: utf-8 -*-
+
+# moduler
+import webbrowser
+import time
+import sys
+
+# Spil i Python
+def spil(liste):
+    
+    liste_over_valg = ['1', '2', '3', '4']
+    mit_valg = valg(liste_over_valg)
+    
+    if mit_valg == "1":
+        if "påskeæg" in liste:
+            print("'Påskeægget' findes i listen og du kommer videre")
+            print("loader...")
+            time.sleep(2)
+            scene1(liste)
+        else:
+            print("'Påskægget' findes ikke i listen")
+            print("Din liste:", liste)
+            time.sleep(2)
+            spil(liste)
+            
+    elif mit_valg == "2":
+       print("\nDu ser er stort påskeæg")
+       print("\nHvad gør du:")
+       print("\nTager det op (1)")
+       print("\nLader det ligge (2)")
+       liste_over_valg = ['1', '2']
+       mit_valg = valg(liste_over_valg)
+       if mit_valg == "1":
+           liste.append("Påskeæg")
+           spil(liste)
+       else:
+           print("Du log ægget ligge")
+           return spil(liste)
+
+
+
+
+# Game engine
+    
+def skrivemaskine(str):
+    for i in str:
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(0.1)  
+        
+def valg(liste_over_valg):
+    
+    valg = input('\n? ')
+    if valg in liste_over_valg:
+        return valg
+    elif valg == 'q':
+         exit(0)
+    else:
+        print('Forkert indtast')
+        return valg(liste_over_valg)
+    
+    
+def start(liste):
+    print("------------------------------") # 30 mellemrum
+    print("|                            |")
+    print("|                            |")
+    print("|       PÅSKESPILLET         |")
+    print("|           ####             |")
+    print("|                            |")
+    print("|          (S)PIL            |")
+    print("|            --              |")
+    print("|      (I)NSTRUKTIONER       |")
+    print("|            --              |")
+    print("|           (A)F             |")
+    print("|            --              |")
+    print("------------------------------")
+    min_input = input("> ")
+    print() # Luft
+    print(min_input)
+    if min_input == "s" or min_input == "S":
+        skrivemaskine("\nPåskeharen har været vidt omkring og har gemt sine æg")
+        skrivemaskine("\nMen hvis du skal finde dem, skal du først løse gåderne, som den har lagt ud")
+        time.sleep(0.5)
+        print()
+        skrivemaskine("................................\n")
+        skrivemaskine("loader...\n")
+        time.sleep(2)
+        skrivemaskine("................................\n")
+        print(".READY")
+        spil(liste)
+    if min_input == "i" or min_input == "I":
+        print("Påskeharen er på spil igen i år")
+        print("Han har smidt rundt med alle sine æg for at drille dig!")
+        print("Men kan du finde dem alle sammen?")
+        start(liste)
+        
+    if min_input == "a" or min_input == "A":
+        print("Spillet er lavet af Pythons")
+        print("Loader...")
+        time.sleep(2)
+        url = "https://pythons.io"
+        webbrowser.open_new(url)
+        start(liste)
+        
+        
+
+    
+liste = []
+start(liste)
