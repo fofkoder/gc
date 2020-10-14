@@ -1,0 +1,127 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 14 07:25:55 2020
+
+@author: AW
+"""
+
+# Python som lommeregner
+
+#+, -, /, *
+# %, //
+
+# Strenge - Vores første program
+
+# "Hello, World!"
+# print("Hello, World")
+
+# Skriv en historie
+
+# Variabler
+# x = 5
+# x + 5
+# y = 10
+# y - x
+
+# farve = "Blå"
+# # print(farve)
+
+# # Strenge og variabler
+# print("Hej, din yndlingsfarve er " + farve)
+
+# input("Skriv dit navn: ")
+
+# navn = input("Skriv dit navn: ")
+# print("Hej " + navn)
+
+# Loop
+
+# x = 1
+# while x < 7:
+#     x = x + 1
+#     print("Hejsa")
+
+# for i in range(10):
+#     print("Hejsa for loop")
+
+# for i in range(1, 20):
+#     print(i)
+
+# for i in range(100):
+#     print(i)
+#     for j in range(1, 6):
+#         print(j)
+
+
+# if elif else
+
+# alder = 10
+# if alder > 20:
+#     print("Du er vist for gammeL")
+# elif alder < 11:
+#     print("Du kan få en børnebillet")
+
+
+# import random
+# print(random.randint(1, 6))
+# print(random.randint(1, 6))
+# print(random.randint(1, 6))
+# print(random.randint(1, 6))
+# print(random.randint(1, 6))
+# Raket
+# import time
+
+# x = 11
+# for i in range(x):
+#     time.sleep(1)
+#     x = x - 1
+#     print(x)
+    
+#     if x == 0:
+#         time.sleep(2)
+        
+#         print("Affyr raket!!")
+
+# Turtle
+
+#Turtle graphics day 1
+#Squares
+
+# from turtle import* 
+# for i in range(500): 
+# 	forward(i) 
+# 	left(90) 
+# 	hideturtle() 
+
+
+# for i in range(180): #for loop are making 180 loops ranging from 0 - 179
+# 	circle(i) #Circles starts from 0 and starts moving from 1 - 179 in the loop
+# 	right(60) #The circles are turning 60 degrees
+# 	hideturtle() #Hides turtle
+
+
+# for i in range(800): 
+#     for j in range(6): 
+#         forward(i) 
+#         left(45+1) 
+#         hideturtle() 
+#     left(33) 
+
+
+# for i in range(420):
+#     for j in range(4):
+#         forward(0.2 * i * j)
+#         left(91)
+#         hideturtle()
+#         pensize(3)
+#         speed(50)
+#     left(73*15/100+15)
+
+#Day 17 of 100 by Atle Winther
+
+# step = 3
+# for step in range(1000):
+# 	forward(step) 
+# 	left(181) 
+# 	pencolor("orange") 
+# 	hideturtle() 
